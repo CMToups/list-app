@@ -7,7 +7,7 @@ cd ~/workspace/list-app
 git pull
 
 ##to run the app
-meteor
+mrt
 
 ##to stop the app or any command (so you can save your changes)
 hit the little "x" to close the console 
