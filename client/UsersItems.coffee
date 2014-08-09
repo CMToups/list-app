@@ -1,2 +1,2 @@
-Template.UsersItems.items = -> 
+Template.usersItems.items = -> 
 	Items.find()
