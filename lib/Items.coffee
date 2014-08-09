@@ -9,4 +9,4 @@
 # types????
 # number of items bought
 
-@items = Meteor.Collection 'items'
+@Items = new Meteor.Collection 'items'

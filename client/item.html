@@ -1,0 +1,25 @@
+<template name='item'>
+	<form class="ui form">
+		<div class="name field">
+			<label>Name</label>
+			<input type='text' placeholder='name' {{readonly}} value="{{name}}"> 
+		</div>
+		<div class="brand field">
+			<label>brand</label>
+			<input type='text' placeholder='brand' {{readonly}} value="{{brand}}"> 
+		</div>
+		<div class="price field">
+			<label>price</label>
+			<input type='text' placeholder='price' {{readonly}} value="{{price}}"> 
+		</div>
+		<div class="upc field">
+			<label>upc</label>
+			<input type='text' placeholder='upc' {{readonly}} value="{{upc}}"> 
+		</div>
+		<div class="notes field">
+			<label>notes</label>
+			<textarea {{readonly}}>{{notes}}</textarea>
+		</div>
+		<input type="submit" value='Done'>
+	</form>
+</template>
