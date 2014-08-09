@@ -1,6 +1,6 @@
 list-app
 ========
-
+the front end framework you should use is semantic-ui.com
 #git usage (for luna) note that it can a long time before it reads your commands
 ##to start run 
 cd ~/workspace/list-app
